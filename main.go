@@ -15,11 +15,6 @@ var (
 	WarningLog *log.Logger
 	InfoLog    *log.Logger
 	ErrorLog   *log.Logger
-
-	ldapServer   string
-	ldapUsername string
-	ldapPassword string
-	ldapBaseDN   string
 )
 
 func main() {
